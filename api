@@ -4,4 +4,10 @@ An Application Programming Interface is a set of commands,functions,protocols an
 
 
 Your server requests through using API to someone else server 
-Your server gets respond through using API from someone else server,
+Your server gets respond through using API from someone else server.
+
+API 
+1. Endpoints
+2. Paths
+3. Parameters
+4. Authentication
