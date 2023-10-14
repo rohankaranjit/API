@@ -3,3 +3,8 @@ API I used today:
 1. kanya.rest API
 2. Joke.api
 3. OpenWeather APi
+
+
+Website I used by creating my own key :
+
+https://api.openweathermap.org/data/2.5/weather?q=imadol&appid=1db849ab2828c5547e48ecfe417c1e99&mode=html
