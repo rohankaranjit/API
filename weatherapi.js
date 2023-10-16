@@ -5,6 +5,7 @@ const https = require("https");
 //Creating a Express Application
 const app = express();
 
+//Defining a route.
 app.get("/", function (req, res) {
   const url = "https://api.openweathermap.org/data/2.5/weather?appid=1db849ab2828c5547e48ecfe417c1e99&units=standard&q=Imadol#";
 
