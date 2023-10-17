@@ -31,7 +31,7 @@ app.get("/", function (req, res) {
       
       res.write("<p> The weather description is " + weatherDescription);
 
-      res.write("<h1> The temperature is " + temp + " degree Celsius </h1>");
+      res.write("<h1> The temperature of "+ req.body.cityName +" is " + temp + " degree Celsius </h1>");
       res.write("<img src= "+ imgURL +">");
 
       res.send();
