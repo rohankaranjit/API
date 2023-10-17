@@ -2,8 +2,11 @@
 const express = require("express");
 const https = require("https");
 
-//Creating a Express Application
+const bodyParser = require("body-parser");
+
 const app = express();
+
+app.use(bodyParser.urlencoded({ extended: true }));
 
 //Defining a route.
 app.get("/", function (req, res) {
