@@ -38,6 +38,7 @@ app.post("/", function (req, res) {
             res.write("<h1> The temperature of "+ req.body.cityName +" is " + temp + " degree Celsius </h1>");
             res.write("<img src= " + imgURL + ">");
 
+            //sent all code to process
             res.send();
         });
     });
