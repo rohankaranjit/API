@@ -3,7 +3,6 @@ const https = require("https");
 //Added body parser
 const bodyParser = require("body-parser");
 
-
 //Used to make express application
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
