@@ -4,7 +4,6 @@ const https = require("https");
 const bodyParser = require("body-parser");
 
 
-
 //Used to make express application
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
