@@ -8,8 +8,6 @@
 
 
 
-
-
 const express = require("express");
 const https = require("https");
 //Added body parser
